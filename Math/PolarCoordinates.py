@@ -7,7 +7,9 @@ Created   : 15 July 2016
 Problem   : https://www.hackerrank.com/challenges/polar-coordinates/problem
 '''
 import cmath
-z = complex(input())
-p = cmath.polar(z)
-print(p[0])
-print(p[1])
+
+if __name__ == '__main__':
+    z = complex(input())
+    p = cmath.polar(z)
+    print(p[0])
+    print(p[1])
