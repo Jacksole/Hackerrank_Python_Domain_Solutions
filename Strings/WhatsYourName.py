@@ -7,6 +7,8 @@ Created   : 15 July 2016
 Problem   : https://www.hackerrank.com/challenges/whats-your-name/problem
 '''
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-fname=raw_input()
-lname=raw_input()
-print "Hello "+fname+" "+lname+"! You just delved into python."
+
+if __name__ == '__main__':
+    fname=input()
+    lname=input()
+    print("Hello "+fname+" "+lname+"! You just delved into python.")

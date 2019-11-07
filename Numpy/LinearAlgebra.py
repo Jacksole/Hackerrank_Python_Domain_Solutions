@@ -13,4 +13,6 @@ for i in range(n):
     tmp = list(map(float,input().split()))
     ar.append(tmp)
 np_ar = numpy.array(ar,float)
+numpy.set_printoptions(legacy='1.13')
+
 print(numpy.linalg.det(np_ar))

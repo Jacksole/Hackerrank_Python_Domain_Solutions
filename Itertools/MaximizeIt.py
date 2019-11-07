@@ -17,6 +17,8 @@ for i in range(k):
 
 all_combination = itertools.product(*main_ar)
 result = 0
-for single_combination in all_combination:   
-    result = max(sum([x*x for x in single_combination])%m,result)
-print(result)
+
+if __name__ == '__main__':
+    for single_combination in all_combination:
+        result = max(sum([x*x for x in single_combination])%m,result)
+    print(result)
